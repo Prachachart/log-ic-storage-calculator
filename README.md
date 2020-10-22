@@ -1,4 +1,5 @@
-# AWS Logs calculator (WIP)
+# AWS Log.ic Log Size calculator (WIP)
+[Original author: Roy Feintuch](https://github.com/froyke) \
 This little tool helps to estimate the amount of AWS logs your AWS account is generating.
 Currently it supports:
 - VPC Flow Logs (via CloudWatch Logs or S3)
