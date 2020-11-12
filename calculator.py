@@ -4,6 +4,7 @@
 # AWS logs storage calculator
 # Author: Roy Feintuch | Check Point SW Technologies
 # See LICENSE and README files
+# Last edited by: Jayden Aung
 # **************************************************
 
 import boto3
@@ -47,6 +48,7 @@ def main():
             stats.append(('CWL','(%s) %s' % (region,log_group),count,sizeGB) )
 
     # Analyzing S3 buckets - no need to do it per region as s3 is a global service
+    # Compression ratio is currently set to 8, although AWS has told me that there is no fixed formula they're using. (Jayden)
     COMPRESSION_RATIO = 8
     relevant_s3 = list(set(relevant_s3)) # dedup s3 list
     print('\nRelevant S3 buckets: %s' % relevant_s3)
