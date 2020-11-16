@@ -1,0 +1,155 @@
+$ ./calculator.py 
+Starting script. AWS_PROFILE env variable:  -NA-
+
+Region: eu-north-1
+---------------------------
+VPCs: ['vpc-0345bb6a']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-0345bb6a']
+Relevant CW Log Groups: []
+
+Region: ap-south-1
+---------------------------
+VPCs: ['vpc-41a38829']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-41a38829']
+Relevant CW Log Groups: []
+
+Region: eu-west-3
+---------------------------
+VPCs: ['vpc-d2d3fcbb']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-d2d3fcbb']
+Relevant CW Log Groups: []
+
+Region: eu-west-2
+---------------------------
+VPCs: ['vpc-c6cfaaae', 'vpc-092f59d0105ce11e0']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-c6cfaaae', 'vpc-092f59d0105ce11e0']
+Relevant CW Log Groups: []
+
+Region: eu-west-1
+---------------------------
+VPCs: ['vpc-539ba435']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-539ba435']
+Relevant CW Log Groups: []
+
+Region: ap-northeast-2
+---------------------------
+VPCs: ['vpc-753ace1e']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-753ace1e']
+Relevant CW Log Groups: []
+
+Region: ap-northeast-1
+---------------------------
+VPCs: ['vpc-07280a60']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-07280a60']
+Relevant CW Log Groups: []
+
+Region: sa-east-1
+---------------------------
+VPCs: ['vpc-f26f3d95']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-f26f3d95']
+Relevant CW Log Groups: []
+
+Region: ca-central-1
+---------------------------
+VPCs: ['vpc-e8670880']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-e8670880']
+Relevant CW Log Groups: []
+
+Region: ap-southeast-1
+---------------------------
+VPCs: ['vpc-08776b571fa66097e', 'vpc-04d3bb826cf99826f', 'vpc-9da295fa', 'vpc-0152698229e52ffdb', 'vpc-05b2a9516ca2b1aca', 'vpc-0e60cb8cf9f934d80', 'vpc-030df832aedaab709']
+VPCs with FL (CWL): ['vpc-030df832aedaab709', 'vpc-0152698229e52ffdb', 'vpc-05b2a9516ca2b1aca', 'vpc-0e60cb8cf9f934d80']
+VPCs with FL (S3): ['vpc-0152698229e52ffdb', 'vpc-05b2a9516ca2b1aca', 'vpc-0e60cb8cf9f934d80', 'vpc-030df832aedaab709']
+VPCs without FlowLogs: ['vpc-08776b571fa66097e', 'vpc-9da295fa', 'vpc-04d3bb826cf99826f']
+Relevant CW Log Groups: ['tgw-geo-cluster-vpc-flowlogs', 'hub-vpcflowlog', 'management-vpc-flowlog', 'vpc-c-flowlog']
+Querying CloudWatch Log Group: tgw-geo-cluster-vpc-flowlogs ....	Got results: [30194, 30226, 29912, 29823] Average: 30038 events/day
+Querying CloudWatch Log Group: hub-vpcflowlog ....	Got results: [25935, 25684, 25646, 31546] Average: 27202 events/day
+Querying CloudWatch Log Group: management-vpc-flowlog ....	Got results: [14406, 14409, 14415, 14367] Average: 14399 events/day
+Querying CloudWatch Log Group: vpc-c-flowlog .....	Got results: [14395, 14399, 14052, 14327] Average: 14293 events/day
+
+Region: ap-southeast-2
+---------------------------
+VPCs: ['vpc-953e1bf2', 'vpc-087e089e1fee6c061', 'vpc-04fd3583f73c635e4', 'vpc-0b7cac064878b3fa5']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-04fd3583f73c635e4', 'vpc-953e1bf2', 'vpc-087e089e1fee6c061', 'vpc-0b7cac064878b3fa5']
+Relevant CW Log Groups: []
+
+Region: eu-central-1
+---------------------------
+VPCs: ['vpc-b8555dd3']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-b8555dd3']
+Relevant CW Log Groups: []
+
+Region: us-east-1
+---------------------------
+VPCs: ['vpc-04177c61cc8246174', 'vpc-5e75fc24']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-5e75fc24', 'vpc-04177c61cc8246174']
+Relevant CW Log Groups: []
+
+Region: us-east-2
+---------------------------
+VPCs: ['vpc-4e0b1a26']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-4e0b1a26']
+Relevant CW Log Groups: []
+
+Region: us-west-1
+---------------------------
+VPCs: ['vpc-ca1e22ad']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-ca1e22ad']
+Relevant CW Log Groups: []
+
+Region: us-west-2
+---------------------------
+VPCs: ['vpc-7351f10b']
+VPCs with FL (CWL): []
+VPCs with FL (S3): []
+VPCs without FlowLogs: ['vpc-7351f10b']
+Relevant CW Log Groups: []
+
+Relevant S3 buckets: ['jayden-flowlogs2', 'jayden-flowlogs1']
+Analysing S3 bucket jayden-flowlogs2, discovered 1 relevant subfolders
+ - jayden-flowlogs2/AWSLogs/116489363094/vpcflowlogs/ap-southeast-1/2020/11/15/ 	size:518564 
+Total 518564 bytes (compressed)
+Analysing S3 bucket jayden-flowlogs1, discovered 1 relevant subfolders
+ - jayden-flowlogs1/AWSLogs/116489363094/vpcflowlogs/ap-southeast-1/2020/11/15/ 	size:591200 
+Total 591200 bytes (compressed)
+
+---------------------------- Final Report -------------------------------
+
+Type	Destination                             	Ev/day    	GB/day
+CWL	(ap-southeast-1) tgw-geo-cluster-vpc-flowlogs	30038     	0.003077257424592972
+CWL	(ap-southeast-1) hub-vpcflowlog         	27202     	0.002786722034215927
+CWL	(ap-southeast-1) management-vpc-flowlog 	14399     	0.0014751125127077103
+CWL	(ap-southeast-1) vpc-c-flowlog          	14293     	0.0014642532914876938
+S3	jayden-flowlogs2                        	NA        	0.003863602876663208
+S3	jayden-flowlogs1                        	NA        	0.004404783248901367
+
+Total: 0.02 GB/day
+Total: 0.51 GB/month
